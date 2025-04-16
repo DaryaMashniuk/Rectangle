@@ -8,6 +8,21 @@ public class RectangleServiceImpl implements RectangleService {
     private static final double EPSILON = 0.0001;
 
     @Override
+    public String getShapeType(Rectangle rectangle) {
+        if (isSquare(rectangle)) {
+            return "Square";
+        } else if (isRhombus(rectangle)) {
+            return "Rhombus";
+        } else if (isTrapezoid(rectangle)) {
+            return "Trapezoid";
+        } else if (isConvex(rectangle)) {
+            return "Convex Quadrilateral";
+        } else {
+            return "Concave Quadrilateral";
+        }
+    }
+
+    @Override
     public double calculatePerimeter(Rectangle rectangle) {
         Point p1 = rectangle.getPoint1();
         Point p2 = rectangle.getPoint2();
@@ -123,6 +138,7 @@ public class RectangleServiceImpl implements RectangleService {
 
         return parallel1 || parallel2;
     }
+
 
     private double calculateDistance(Point p1, Point p2) {
         double dx = p2.getX() - p1.getX();

@@ -1,0 +1,74 @@
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 14:21:47 [main] INFO 
+            mashnyuk.rectangle.service.impl.RectangleImportService - Added Rectangle 1: perimeter=4.0, area=1.0
+2025-04-16 14:21:47 [main] INFO 
+            mashnyuk.rectangle.service.impl.RectangleImportService - Added Rectangle 2: perimeter=10.0, area=6.0
+2025-04-16 14:21:47 [main] INFO 
+            mashnyuk.rectangle.service.impl.RectangleImportService - Added Rectangle 3: perimeter=8.94427190999916, area=4.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 1
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=0.0, y=1.0}, Point{x=1.0, y=1.0}, Point{x=1.0, y=0.0}]
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 4.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 1.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: false
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 2
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=0.0, y=2.0}, Point{x=3.0, y=2.0}, Point{x=3.0, y=0.0}]
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 10.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 6.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: false
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: false
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 3
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=1.0, y=2.0}, Point{x=2.0, y=0.0}, Point{x=1.0, y=-2.0}]
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 8.94427190999916
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 4.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: false
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.main.Main - === Квадраты ===
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.main.Main - ID: 1, Area: 1.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.main.Main - === Средние по площади (10-100) ===
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.main.Main - === Сортировка по площади ===
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.main.Main - ID: 1, Area: 1.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.main.Main - ID: 3, Area: 4.0
+2025-04-16 14:21:47 [main] INFO 
+            by.mashnyuk.rectangle.main.Main - ID: 2, Area: 6.0

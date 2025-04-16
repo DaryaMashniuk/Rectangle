@@ -1,14 +1,17 @@
 package by.mashnyuk.rectangle.entity;
 
+import by.mashnyuk.rectangle.observer.RectangleObserver;
+
 import java.util.Arrays;
 import java.util.List;
 
 public class Rectangle {
     private final int id;
-    private final Point point1;
-    private final Point point2;
-    private final Point point3;
-    private final Point point4;
+    private Point point1;
+    private Point point2;
+    private Point point3;
+    private Point point4;
+    private final RectangleObserver observer = RectangleObserver.getInstance();
 
     public Rectangle(int id, Point point1, Point point2, Point point3, Point point4) {
         this.id = id;
@@ -36,6 +39,23 @@ public class Rectangle {
 
     public Point getPoint4() {
         return point4;
+    }
+
+    public void setPoint1(Point point1) {
+        this.point1 = point1;
+        observer.update(this);
+    }
+    public void setPoint2(Point point2) {
+        this.point2 = point2;
+        observer.update(this);
+    }
+    public void setPoint3(Point point3) {
+        this.point3 = point3;
+        observer.update(this);
+    }
+    public void setPoint4(Point point4) {
+        this.point4 = point4;
+        observer.update(this);
     }
 
     public List<Point> getPoints() {

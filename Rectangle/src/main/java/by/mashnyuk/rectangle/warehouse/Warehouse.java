@@ -1,19 +1,15 @@
 package by.mashnyuk.rectangle.warehouse;
 
-import by.mashnyuk.rectangle.entity.Rectangle;
-import by.mashnyuk.rectangle.service.RectangleService;
-import by.mashnyuk.rectangle.service.impl.RectangleServiceImpl;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Warehouse {
     private static Warehouse instance;
     private final Map<Integer, RectangleParameters> parametersMap = new HashMap<>();
-    private final RectangleService rectangleService = new RectangleServiceImpl();
 
     private Warehouse() {}
 
-    public static synchronized Warehouse getInstance() {
+    public static Warehouse getInstance() {
         if (instance == null) {
             instance = new Warehouse();
         }
@@ -28,13 +24,11 @@ public class Warehouse {
         return parametersMap.get(rectangleId);
     }
 
-    public void update(Rectangle rectangle) {
-        RectangleParameters parameters = parametersMap.get(rectangle.getId());
-        if (parameters != null) {
-            double perimeter = rectangleService.calculatePerimeter(rectangle);
-            double area = rectangleService.calculateArea(rectangle);
-            parameters.setPerimeter(perimeter);
-            parameters.setArea(area);
+    public void update(int rectangleId, double perimeter, double area) {
+        RectangleParameters params = parametersMap.get(rectangleId);
+        if (params != null) {
+            params.setPerimeter(perimeter);
+            params.setArea(area);
         }
     }
 }

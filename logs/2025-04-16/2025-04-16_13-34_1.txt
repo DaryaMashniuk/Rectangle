@@ -1,0 +1,214 @@
+2025-04-16 12:18:37 [main] ERROR
+            by.mashnyuk.rectangle.facade.RectangleFacade - Error reading file: src/main/resources/rectangles.txt
+java.nio.file.NoSuchFileException: src\main\resources\rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) [classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:19) [classes/:?]
+2025-04-16 12:18:37 [main] ERROR
+            by.mashnyuk.rectangle.main.Main - Application error: Failed to read file: src/main/resources/rectangles.txt
+by.mashnyuk.rectangle.exception.ShapeException: Failed to read file: src/main/resources/rectangles.txt
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:53) ~[classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:19) [classes/:?]
+Caused by: java.nio.file.NoSuchFileException: src\main\resources\rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) ~[classes/:?]
+	... 1 more
+2025-04-16 12:22:25 [main] ERROR
+            by.mashnyuk.rectangle.facade.RectangleFacade - Error reading file: ./resources/rectangles.txt
+java.nio.file.NoSuchFileException: .\resources\rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) [classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:19) [classes/:?]
+2025-04-16 12:22:25 [main] ERROR
+            by.mashnyuk.rectangle.main.Main - Application error: Failed to read file: ./resources/rectangles.txt
+by.mashnyuk.rectangle.exception.ShapeException: Failed to read file: ./resources/rectangles.txt
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:53) ~[classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:19) [classes/:?]
+Caused by: java.nio.file.NoSuchFileException: .\resources\rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) ~[classes/:?]
+	... 1 more
+2025-04-16 12:22:37 [main] ERROR
+            by.mashnyuk.rectangle.facade.RectangleFacade - Error reading file: rectangles.txt
+java.nio.file.NoSuchFileException: rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) [classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:19) [classes/:?]
+2025-04-16 12:22:37 [main] ERROR
+            by.mashnyuk.rectangle.main.Main - Application error: Failed to read file: rectangles.txt
+by.mashnyuk.rectangle.exception.ShapeException: Failed to read file: rectangles.txt
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:53) ~[classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:19) [classes/:?]
+Caused by: java.nio.file.NoSuchFileException: rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) ~[classes/:?]
+	... 1 more
+2025-04-16 12:31:12 [main] ERROR
+            by.mashnyuk.rectangle.facade.RectangleFacade - Error reading file: C:/.../rectangles.txt
+java.nio.file.NoSuchFileException: C:\...\rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) [classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:20) [classes/:?]
+2025-04-16 12:31:12 [main] ERROR
+            by.mashnyuk.rectangle.main.Main - Application error: Failed to read file: C:/.../rectangles.txt
+by.mashnyuk.rectangle.exception.ShapeException: Failed to read file: C:/.../rectangles.txt
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:53) ~[classes/:?]
+	at by.mashnyuk.rectangle.main.Main.main(Main.java:20) [classes/:?]
+Caused by: java.nio.file.NoSuchFileException: C:\...\rectangles.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4138) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4233) ~[?:?]
+	at by.mashnyuk.rectangle.io.CustomFileReader.readLines(CustomFileReader.java:15) ~[classes/:?]
+	at by.mashnyuk.rectangle.facade.RectangleFacade.run(RectangleFacade.java:50) ~[classes/:?]
+	... 1 more
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 1
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=0.0, y=1.0}, Point{x=1.0, y=1.0}, Point{x=1.0, y=0.0}]
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 4.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 1.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: false
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 2
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=0.0, y=2.0}, Point{x=3.0, y=2.0}, Point{x=3.0, y=0.0}]
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 10.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 6.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: false
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: false
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 3
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=1.0, y=2.0}, Point{x=2.0, y=0.0}, Point{x=1.0, y=-2.0}]
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 8.94427190999916
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 4.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: false
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 1
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=0.0, y=1.0}, Point{x=1.0, y=1.0}, Point{x=1.0, y=0.0}]
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 4.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 1.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: false
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 2
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=0.0, y=2.0}, Point{x=3.0, y=2.0}, Point{x=3.0, y=0.0}]
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 10.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 6.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: false
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is rhombus: false
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is trapezoid: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is convex: true
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Rectangle ID: 3
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Points: [Point{x=0.0, y=0.0}, Point{x=1.0, y=2.0}, Point{x=2.0, y=0.0}, Point{x=1.0, y=-2.0}]
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Perimeter: 8.94427190999916
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Area: 4.0
+2025-04-16 13:34:19 [main] INFO 
+            by.mashnyuk.rectangle.facade.RectangleFacade - Is square: false
