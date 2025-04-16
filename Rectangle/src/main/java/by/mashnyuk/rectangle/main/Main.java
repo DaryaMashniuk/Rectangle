@@ -10,7 +10,7 @@ import by.mashnyuk.rectangle.facade.RectangleFacade;
 import by.mashnyuk.rectangle.io.CustomFileReader;
 import by.mashnyuk.rectangle.parser.PointParser;
 import by.mashnyuk.rectangle.parser.RectangleParser;
-import by.mashnyuk.rectangle.repository.RectangleRepository;
+import by.mashnyuk.rectangle.repository.impl.RectangleRepositoryImpl;
 import by.mashnyuk.rectangle.service.impl.RectangleImportService;
 import by.mashnyuk.rectangle.service.impl.RectangleServiceImpl;
 import by.mashnyuk.rectangle.validator.impl.RectangleValidatorImpl;
@@ -36,7 +36,7 @@ public class Main {
             PointParser pointParser = new PointParser(pointFactory);
             RectangleParser rectangleParser = new RectangleParser(pointParser, rectangleFactory);
             CustomFileReader fileReader = new CustomFileReader();
-            RectangleRepository repository = RectangleRepository.getInstance();
+            RectangleRepositoryImpl repository = RectangleRepositoryImpl.getInstance();
             RectangleServiceImpl rectangleService = new RectangleServiceImpl();
             Warehouse warehouse = Warehouse.getInstance();
 

@@ -4,7 +4,7 @@ import by.mashnyuk.rectangle.entity.Rectangle;
 import by.mashnyuk.rectangle.exception.ShapeException;
 import by.mashnyuk.rectangle.io.CustomFileReader;
 import by.mashnyuk.rectangle.parser.RectangleParser;
-import by.mashnyuk.rectangle.repository.RectangleRepository;
+import by.mashnyuk.rectangle.repository.impl.RectangleRepositoryImpl;
 import by.mashnyuk.rectangle.warehouse.Warehouse;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,13 +17,13 @@ public class RectangleImportService {
     private static final Logger logger = LogManager.getLogger();
     private final CustomFileReader fileReader;
     private final RectangleParser rectangleParser;
-    private final RectangleRepository repository;
+    private final RectangleRepositoryImpl repository;
     private final RectangleServiceImpl service;
     private final Warehouse warehouse;
 
     public RectangleImportService(CustomFileReader fileReader,
                                   RectangleParser rectangleParser,
-                                  RectangleRepository repository,
+                                  RectangleRepositoryImpl repository,
                                   RectangleServiceImpl service,
                                   Warehouse warehouse) {
         this.fileReader = fileReader;

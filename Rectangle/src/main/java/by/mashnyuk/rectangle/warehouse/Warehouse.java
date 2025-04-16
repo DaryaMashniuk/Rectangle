@@ -24,11 +24,4 @@ public class Warehouse {
         return parametersMap.get(rectangleId);
     }
 
-    public void update(int rectangleId, double perimeter, double area) {
-        RectangleParameters params = parametersMap.get(rectangleId);
-        if (params != null) {
-            params.setPerimeter(perimeter);
-            params.setArea(area);
-        }
-    }
 }

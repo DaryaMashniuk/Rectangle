@@ -2,7 +2,7 @@ package by.mashnyuk.rectangle.facade;
 
 import by.mashnyuk.rectangle.entity.Rectangle;
 import by.mashnyuk.rectangle.exception.ShapeException;
-import by.mashnyuk.rectangle.repository.RectangleRepository;
+import by.mashnyuk.rectangle.repository.impl.RectangleRepositoryImpl;
 import by.mashnyuk.rectangle.service.impl.RectangleImportService;
 import by.mashnyuk.rectangle.service.impl.RectangleServiceImpl;
 import by.mashnyuk.rectangle.specification.AreaRangeSpecification;
@@ -16,12 +16,12 @@ import java.util.List;
 public class RectangleFacade {
     private static final Logger logger = LogManager.getLogger();
     private final RectangleImportService importService;
-    private final RectangleRepository repository;
+    private final RectangleRepositoryImpl repository;
     private final RectangleServiceImpl service;
     private final Warehouse warehouse;
 
     public RectangleFacade(RectangleImportService importService,
-                           RectangleRepository repository,
+                           RectangleRepositoryImpl repository,
                            RectangleServiceImpl service,
                            Warehouse warehouse) {
         this.importService = importService;
